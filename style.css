@@ -139,3 +139,52 @@ main div:nth-child(1) {
     font-family: sans-serif;
     font-weight: 1000;
 }
+
+.painelFinal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textPlano{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.painelBotoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.548);
+    border-radius: 50%;
+    border-radius: 100px;
+    margin-top: 25px;
+    min-width: 400px;
+    padding: 5px 5px;
+
+}
+
+.painelBotoes p{
+    text-align: center;
+    width: 50%;
+    border-radius: 100px;
+    color: black;
+    padding: 13px 0;
+    font-weight: 800;
+    cursor: pointer;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+   
+}
+
+.painelBotoes p:nth-child(2){
+    
+    margin-left: 5px;
+}
+
+.ativo{
+    background-color: white;
+}
+
