@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
     color: white;
+    font-family: "Quicksand";
 }
 
 body {
@@ -11,15 +13,17 @@ body {
 }
 
 #apresentacao {
-    background-image: url(assets/img/imgHbo.png);
+    background-image: url(assets/img/hbomax.jpeg);
     background-size: cover;
     background-position: center;
-    min-height: 800px;
+    min-height: 900px;
     position: relative;
-    box-shadow: inset 0px -30px 30px rgb(0, 0, 0);
+    box-shadow: inset 0px -30px 300px rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: end;
+    padding-bottom: 100px;
+
 }
 
 header {
@@ -42,17 +46,21 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 250px;
+    min-width: 240px;
 }
 
 .painelMenu a {
     text-decoration: none;
     font-size: .860rem;
+    font-weight: 900;
 }
 
 .painelMenu a:nth-child(1) {
     color: white;
+
 }
+
+
 
 .painelMenu a:nth-child(2) {
     color: rgb(0, 0, 0);
@@ -65,45 +73,51 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     min-height: 400px;
+
+    font-weight: 500;
+
 }
 
-.painelImgPlanos img{
+.painelImgPlanos img {
     margin-bottom: 10px;
 }
 
-.painelImgPlanos span{
-    font-weight: 700;
+.painelImgPlanos span {
+    font-weight: 900;
 }
 
-main div:nth-child(1){
+main div:nth-child(1) {
     text-align: center;
     font-size: 30px;
 }
 
-.painelTextOferta p:nth-child(1){
+.painelTextOferta p:nth-child(1) {
     text-align: center;
     font-size: 30px;
     color: rgb(175, 175, 175);
     margin-bottom: 10px;
 }
 
-.painelTextOferta p:nth-child(2){
-   font-size: 13px;
-   color: rgb(175, 175, 175);
+.painelTextOferta p:nth-child(2) {
+    font-size: 13px;
+    color: rgb(175, 175, 175);
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.painelTextOferta a{
+.painelTextOferta a {
     text-decoration: none;
     color: rgb(7, 142, 204);
     font-weight: 600;
-  
+
 }
-.linkAssine{
+
+.linkAssine {
     font-size: 18px;
     font-weight: 700;
-    padding: 20px;
+    padding: 17px 25px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     color: black;
@@ -112,9 +126,16 @@ main div:nth-child(1){
 
 .textPlanos {
     width: 100%;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    letter-spacing: 5px;
     text-align: center;
     padding: 20px;
-    background: linear-gradient(to right, rgba(1, 34, 53, 0.527), rgb(3, 50, 77), rgba(1, 34, 53, 0.527));
-
+    background: linear-gradient(to right, rgba(1, 34, 53, 0.527), rgb(1, 76, 119), rgba(1, 34, 53, 0.527));
 }
 
+.textPlanos span {
+    font-family: sans-serif;
+    font-weight: 1000;
+}
